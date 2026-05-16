@@ -100,7 +100,7 @@ Edit environment variables (optional):
 # Custom resource group name
 export RESOURCE_GROUP="my-blue-green-rg"
 
-# Azure region (choose closest to your location)
+# Azure region (select based on geographic proximity)
 export LOCATION="eastus"  # Selection based on geographic proximity
 
 # App service name (must be globally unique)
@@ -467,7 +467,7 @@ Replace the default `app.js` with a custom implementation:
 Deploy from GitHub Actions, Azure DevOps, or Jenkins:
 
 ```bash
-# In your CI/CD pipeline:
+# CI/CD pipeline implementation example:
 export RESOURCE_GROUP="prod-rg"
 export APP_SERVICE_NAME="prod-app"
 
